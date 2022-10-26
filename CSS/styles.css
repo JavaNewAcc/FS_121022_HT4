@@ -6,3 +6,90 @@ body{
     background-color: #E5E5E5;
 }
 
+.wrapper{
+    margin: 100px auto;
+    width: 1384px;
+    position: relative;
+}
+
+.diia,
+.opendata,
+.opendata_mod{
+    position: absolute;
+}
+
+.diia_background{
+    height: 512px;
+    width: 512px;
+    background-color: #000000;
+    position: relative;
+}
+
+.diia{
+    z-index: -1;
+}
+
+#Diia_text{
+    position: absolute;
+    top: 128px;
+    left: 101px;
+}
+
+#Diia_flag{
+    position: absolute;
+    top: 343px;
+    left: 216px;
+}
+
+.opendata_background,
+.opendata_mod_background{
+    height: 512px;
+    width: 512px;
+    background-color: #FFCE22;
+    position: relative;
+}
+
+.opendata{
+    top: 395px;
+    left: 441px;
+    z-index: 1;
+}
+
+#opendata_glyph{
+    top: 145px;
+    left: 52px;
+    position: absolute;
+}
+
+.opendata_mod{
+    border-radius: 250px;
+    overflow: hidden;
+}
+
+#opendata_mod_glyph{
+    width: 358px;
+    height: 203px;
+    top: 211px;
+    left: 30px;
+    position: absolute;
+}
+
+.opendata_mod_background{
+    height: 446px;
+    width: 446px;
+}
+
+#opendata_mod_blue{
+    width: 446px;
+    height: 234px;
+}
+
+.white_border_styling{
+height: 512px;
+width: 512px;
+background-color: #fff;
+padding: 34px;
+position: relative;
+top: 813px;
+left: 864px;
+}
