@@ -69,8 +69,8 @@ body{
 #opendata_mod_glyph{
     width: 358px;
     height: 203px;
-    top: 211px;
-    left: 30px;
+    top: 215px;
+    left: 45px;
     position: absolute;
 }
 
@@ -92,4 +92,7 @@ padding: 34px;
 position: relative;
 top: 813px;
 left: 864px;
+border-top: 1px solid #2137FC;
+border-bottom: 1px solid #2137FC;
+box-shadow: 0px 1px 5px rgb(63, 63, 63);
 }
